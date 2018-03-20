@@ -16,7 +16,11 @@ python setup.py build
 python setup.py install
 ```
 
-Or, just get it from PyPI: `pip install pymassdns`.
+Or, just get it from PyPI:
+
+```
+pip install pymassdns
+```
 
 ## Usage
 
