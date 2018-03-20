@@ -7,9 +7,9 @@ _cert_sh_domain_regex = re.compile(r'<td>([\d\w\-\.]*?)<\/td>', re.I)
 
 def convert_to_path(some_path):
     """ Safely converts a string like path, to a pathlib variant """
-    if type(some_path) == str:
+    if isinstance(some_path, str):
         return Path(some_path)
-    elif type(some_path) == Path:
+    elif isinstance(some_path, Path):
         return some_path
     else:
         raise ValueError('Can\'t conver to Path')
