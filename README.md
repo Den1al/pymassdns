@@ -37,8 +37,7 @@ for result in results:
     print(result)
 
 """
->>> <Subdomain domain="1001juegos.example.com.", type="A", ip="142.54.173.92">
-...
+>>> <Subdomain domain="1001juegos.example.com.", type="A", ip="142.54.173.92"> ...
 """
 ```
 
