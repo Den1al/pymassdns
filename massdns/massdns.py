@@ -8,7 +8,7 @@ from massdns.subdomain import Subdomain
 
 class MassDNS(object):
     """ Represents the MassDNS tool wrapper class"""
-    
+
     def __init__(self, massdns_root_dir):
         self.root_dir = convert_to_path(massdns_root_dir)
         self.default_names_path = self.root_dir / 'lists' / 'names_small.txt'
@@ -24,8 +24,8 @@ class MassDNS(object):
 
 
     def scan(self, domain: str, cert_sh=False, names_path=None, resolvers_path=None):
-        names_path = convert_to_path(names_path) or self.default_names_path
-        resolvers_path = convert_to_path(resolvers_path) or self.default_resolvers_path
+        names_path = convert_to_path(names_path or self.default_names_path)
+        resolvers_path = convert_to_path(resolvers_path or self.default_resolvers_path)
         output_path = self.results_folder / f'{domain}_{now_in_str()}.txt'
 
         command = [
