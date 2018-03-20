@@ -4,9 +4,6 @@ from setuptools import setup
 from massdns import __version__
 from massdns import __author__
 
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
-
 setup(
     name = "pymassdns",
     version = __version__,
@@ -17,7 +14,6 @@ setup(
     keywords = "massdns, bruteforce, dns, scanner",
     url='https://github.com/Den1al/pymassdns',
     packages=['massdns'],
-    long_description=read('README.md'),
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.6",
