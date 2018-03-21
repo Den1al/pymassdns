@@ -4,6 +4,10 @@
 
 I often use this tool called [MassDNS](https://github.com/blechschmidt/massdns) which is a high-performance DNS stub resolver. I decided to create this python wrapper to ease the process and for the programmatic challenge.
 
+## Author
+
+[Daniel Abeles](https://twitter.com/Daniel_Abeles).
+
 ## Install
 
 First, follow the installation guide of MassDNS.
