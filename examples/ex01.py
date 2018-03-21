@@ -1,6 +1,7 @@
 from argparse import ArgumentParser, FileType
 from pathlib import Path
-from pymassdns.massdns import MassDNS
+
+from massdns import MassDNS
 
 root_dir = Path('/root/recon/massdns/')
 

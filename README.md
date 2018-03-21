@@ -25,7 +25,7 @@ pip install pymassdns
 ## Usage
 
 ```python
-from pymassdns.massdns import MassDNS
+from massdns import MassDNS
 
 # get the massdns root directory
 
