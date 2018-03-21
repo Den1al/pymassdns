@@ -48,6 +48,10 @@ Since the original massdns tool support many features, I did my best to fit the 
 *  [Crt.sh](https://crt.sh/) subdomain grabber
 *  Worlist based subdomain brute forcer
 
+## TODO
+
+*  Add the rest of the flags of `massdns`
+
 ## Credits
 
 [MassDNS](https://github.com/blechschmidt/massdns)
