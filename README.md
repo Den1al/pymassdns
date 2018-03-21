@@ -45,8 +45,8 @@ for result in results:
 
 Since the original massdns tool support many features, I did my best to fit the most and even more. Currently PyMassDNS supports:
 
-*  Cert.sh subdomain grabber
-*  Sub domain brute forcer
+*  [Crt.sh](https://crt.sh/) subdomain grabber
+*  Worlist based subdomain brute forcer
 
 ## Credits
 
