@@ -11,19 +11,19 @@ I often use this tool called [MassDNS](https://github.com/blechschmidt/massdns) 
 ## Install
 
 First, follow the installation guide of MassDNS.
-Then, if building from source:
+Then, get it from PyPI:
+
+```
+pip install pymassdns
+```
+
+Or, build it from source:
 
 ```bash
 git clone https://github.com/Den1al/pymassdns
 cd pymassdns
 python setup.py build
 python setup.py install
-```
-
-Or, just get it from PyPI:
-
-```
-pip install pymassdns
 ```
 
 ## Usage
