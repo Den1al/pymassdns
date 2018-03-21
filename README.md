@@ -43,7 +43,10 @@ for result in results:
 
 ## Features
 
-I added as a flag, to nativly get subdomains from `cert.sh`.
+Since the original massdns tool support many features, I did my best to fit the most and even more. Currently PyMassDNS supports:
+
+*  Cert.sh subdomain grabber
+*  Sub domain brute forcer
 
 ## Credits
 
